@@ -1,0 +1,91 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\author{Gustavo Vital\thanks{Mestrando em Economia pela Faculdade de Economia do Porto. Email: gustavovital@id.uff.br}}
+\title{Notas sobre o Modelo de Solow\footnote{Baseado em Eric Sims.}}
+
+\begin{document}
+\maketitle
+
+O modelo de Solow é ainda hoje um modelo fundamental para a compreensão do crescimento de longo prazo e diferença de renda entre países. Proposto por Robert Solow, mais tarde ganhador do premio nobel de economia, o modelo assume que o crescimento de um país se da fundamentalmente por choques exógenos de tecnologia, dado a função particular de crescimento de longo prazo.
+
+\section{Produção, Consumo, e Investimento}
+
+O modelo de Solow assume que existe uma função de produção agregada tal que seja composta por capital (K) e trabalho (L), sendo esses fatores os responsáveis pela determinação da produção. Ambos, capital e trabalho, são considerados fatores de produção. A distinção fundamental dos dois fatores é: capital é estoque, trabalho é fluxo. \\
+
+O trabalho, ainda em termos de distinção, é dado. Não há nada que se possa fazer para aumentar as horas de trabalho em um dia (por mais que se aumente a carga horária, um dia tem um limite de horas possíveis). O capital -- por outro lado -- é cumulativo. A quantidade de capital num período $t$ influencia \textit{diretamente} a quantidade de capital num período $t+1$.\\
+
+Em termos matemáticos, podemos escrever a função de produção, tal que: seja $K_t$ o estoque de capital no período $t$; e $N_t$ o total de horas de trabalho no período $t$. A função de produção será dada por:
+\begin{align}
+Y_t &= A_t F(K_t, N_t) 
+\end{align}
+
+\noindent
+$A_t$ é uma \textbf{variável exógena} que representa produtividade; tecnologia. $F$ é a função de produção ainda não especificada, que relaciona horas de trabalho com capital. A função F($\cdot$) possui as seguintes propriedades $F_K>0$ e $F_N>0$. Isso é, o produto marginal é sempre positivo. Além disso, temos $F_{KK}<0$ e $F_{NN}<0$, retornos decrescente de produção -- quanto mais unidades de capital ou trabalho se possui, menor é a variação do produto em termos de trabalho/capital. assumimos além disso que a função possui retornos constantes de escala. Isso é: $F(\gamma  K_t, \gamma N_t) = \gamma F(K_t, N_t)$. Por fim, assumimos que tanto capital quanto trabalho são necessários para a produção i.e. $F(K_t, 0) = F(0, N_t) = 0$.\\
+
+A fim de apresentar a forma funcional de F($\cdot$), trabalharemos com uma função de produção de formato Cobb-Douglas. Então
+\begin{align}
+F(K_t, N_t) &= K_t^{\alpha} N_t^{1-\alpha} \quad \text{sendo} \quad 0 < \alpha < 1; 
+\end{align}
+
+\noindent
+dado o problema acima, a firma buscará otimizar seus lucros ($\Pi_t$) -- produto subtraído de custos e retorno do capital, tal que seu problema de otimização será:
+\begin{align}
+\max_{K_t, N_t} \Pi_t = A_t F(K_t, N_t) - w_t N_t - R_t K_t \quad ;
+\end{align}
+
+\noindent
+onde $w_t$ representa o salário pago pelas firmas e $R_t$ o retorno pago pelo capital. As condições de primeira ordem (CPO) são:
+\begin{align}
+w_t &= A_t F_N(K_t, N_t) \\
+R_t &= A_t F_K(K_t, N_t)
+\end{align}
+\noindent
+essas condições dizem que as firmas devem contratar capital e trabalho até o ponto em que os ``benefícios'' marginais se igualam.\\
+
+Além das firmas, devemos representar as famílias desta economia. Bem como de forma simplificada, as famílias ofertam mão de obra e recebem um salário. Além disso, recebem um retorno referente ao capital, de tal forma que $w_t N_t + R_t K_t$ representa a renda da família no período $t$. Ainda, a família pode investir o recebido ou consumir. Sua restrição orçamentária é, então:
+\begin{align} \label{eq:restr}
+C_t + I_t &= w_t N_t + R_t K_t + \Pi_t
+\end{align}
+
+Como já exposto, as firmas operam em retorno constante de escala, então o produto é igual a renda, de forma que $Y_t = w_t N_t + R_t K_t$. Em \ref{eq:restr}, ao considerarmos retorno constantes de escala, temos que $\Pi_t = 0$ e apresenta-se a identidade:
+\begin{align} \label{eq:ident}
+Y_t = C_t + I_t
+\end{align}
+\noindent
+a evolução do capital por sua vez pode ser apresentada como o estoque de capital no período $t$ não depreciado somado ao investimento do período corrente. Matematicamente:
+\begin{align}
+K_{t+1} = I_t + (1 - \delta)K_t
+\end{align}
+\noindent
+onde $0<\delta<1$ representa a taxa de depreciação do capital. A equação acima representa a ``lei de movimento'' do capital; mais que isso, ela assume que uma unidade de investimento no período $t$ é totalmente revertido em estoque de capital em $t+1$. Exemplificando a lei de movimento do capital, suponha que $k_t = 10$, a taxa de depreciação do capital é igual a 0.1 ($\delta = 0.1$). Se a produção no período $t$ é 3 ($Y_t = 3$)e o consumo no período $t$ também é igual a 3 ($C_t = 3$) temos que $I_t = 0$, de tal forma que $K_{t+1} = 9$. Se o consumo no período $t$ for igual a 2, significa que o investimento nesse período será igual a 1 e assim o capital no período $t+1$ será igual a 10 novamente. O modelo de Solow, visto dessa forma assume -- então -- que o investimento no período $t$ é uma fração da produção do mesmo período $t$:
+\begin{align} \label{eq:s}
+I_t = s Y_t \quad \text{sendo} \quad 0 < s < 1;
+\end{align} 
+\noindent
+combinando \ref{eq:s} com \ref{eq:ident} temos:
+\begin{align}
+C_t = (1-s)Y_t
+\end{align}
+O modelo de Solow assume dessa forma que a economia pode ser representada pelo consumo corrente num período $t$ e um não-consumo, revertido em investimento, que gera acumulação de capital num período $t+1$. Considera ainda que a quantidade de tempo que uma família passa trabalhando é inelástica ao preço pago pelo trabalho, $w_t$. Assim, o número de horas de trabalho $N_t$ se torna exógeno ao modelo.\footnote{O problema aqui é a ausência da microfundamentação do modelo. A curto prazo as famílias não considerarem a otimização frente a oferta de trabalho não parece fazer muito sentido, a longo prazo entretanto, essa ideia é consistente ao modelo}. O modelo de Solow é caracterizado, dessa forma, pelas seguintes equações:
+\begin{align}
+Y_t &= A_t F(K_t, N_t)\\
+Y_t &= C_t + I_t\\
+K_{t+1} &= I_t + (1-\delta)K_t\\
+I_t &= sY_t\\
+w_t &= A_t F_N(K_t, N_t)\\
+R_t &= A_t F_K(K_t, N_t)
+\end{align}  
+Seis são as equações e seis são as variáveis endógenas. São elas: $Y_t, C_t, I_t, K_{t+1}, w_t$ e $R_t$. $K_t, N_t$ e $A_t$ são consideradas \textbf{exógenas} para o modelo.
+
+
+
+
+
+ 
+\end{document}
