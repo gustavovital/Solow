@@ -5,6 +5,7 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{graphicx}
 
 \author{Gustavo Vital\thanks{Mestrando em Economia pela Faculdade de Economia do Porto. Email: gustavovital@id.uff.br}}
 \title{Notas sobre o Modelo de Solow\footnote{Baseado em Eric Sims.}}
@@ -74,17 +75,74 @@ C_t = (1-s)Y_t
 \end{align}
 O modelo de Solow assume dessa forma que a economia pode ser representada pelo consumo corrente num período $t$ e um não-consumo, revertido em investimento, que gera acumulação de capital num período $t+1$. Considera ainda que a quantidade de tempo que uma família passa trabalhando é inelástica ao preço pago pelo trabalho, $w_t$. Assim, o número de horas de trabalho $N_t$ se torna exógeno ao modelo.\footnote{O problema aqui é a ausência da microfundamentação do modelo. A curto prazo as famílias não considerarem a otimização frente a oferta de trabalho não parece fazer muito sentido, a longo prazo entretanto, essa ideia é consistente ao modelo}. O modelo de Solow é caracterizado, dessa forma, pelas seguintes equações:
 \begin{align}
-Y_t &= A_t F(K_t, N_t)\\
+Y_t &= A_t F(K_t, N_t)\\ \label{eq:prod}
 Y_t &= C_t + I_t\\
-K_{t+1} &= I_t + (1-\delta)K_t\\
-I_t &= sY_t\\
+K_{t+1} &= I_t + (1-\delta)K_t\\ \label{eq:cap}
+I_t &= sY_t\\ \label{eq:inv}
 w_t &= A_t F_N(K_t, N_t)\\
 R_t &= A_t F_K(K_t, N_t)
 \end{align}  
-Seis são as equações e seis são as variáveis endógenas. São elas: $Y_t, C_t, I_t, K_{t+1}, w_t$ e $R_t$. $K_t, N_t$ e $A_t$ são consideradas \textbf{exógenas} para o modelo.
+Seis são as equações e seis são as variáveis endógenas. São elas: $Y_t, C_t, I_t, K_{t+1}$, $w_t$ e $R_t$. $K_t, N_t$ e $A_t$ são consideradas \textbf{exógenas} para o modelo, $s$ e $\delta$ são, por sua vez, parâmetros.\\
+
+Podemos ainda combinar as equações \ref{eq:prod}, \ref{eq:cap}, e \ref{eq:inv}, de tal forma que:
+\begin{align}
+K_{t+1} &= s A_t F(K_t, N_t) + (1-\delta)K_t \label{eq:cap2}
+\end{align}
+\noindent
+A equação \ref{eq:cap2} representa a evolução do capital. Dado o valor exógeno de $k_t, N_t e A_t$, esses compõe o valor futuro do estoque de capital, de forma que $k_{t+1}$ se torna endógeno ao modelo. É vantajoso, entretanto, escrevermos a equação de maneira que essa represente o valor per capita. Assim, dividindo ambos os lados de \ref{eq:cap2} por $N_t$, temos:
+\begin{align}
+\frac{K_{t+1}}{N_t} &= \frac{s A_t F(K_t, N_t)}{N_t} + \frac{(1-\delta)K_t}{N_t}
+\end{align} 
+Definimos então a nossa relação em função do capital por trabalhador. Isso é, $k_t \equiv K_t / N_t$. Dado que nossa função de produção possui retornos constantes de escala, podemos escrever a função de produção de forma que:
+\begin{align}
+\frac{F(K_t, N_t)}{N_t} = F\left(\frac{K_t}{N_t},\frac{N_t}{N_t}\right) = F(k_t, 1);
+\end{align}
+\noindent
+dessa forma, podemos reescrever a equação \ref{eq:cap2} em termos de capital por trabalhador ($f(k_t)\equiv F(k_t, 1)$):
+\begin{align}
+\frac{K_{t+1}}{N_t} = s A_t f(k_t) + (1-\delta)k_t
+\end{align}
+A partir desta equação, se multiplicarmos e dividirmos o lado esquerdo por $N_{t+1}$, e considerando que a força de trabalho é exógena e constante em relação a $t, t+1$, temos:
+\begin{align*}
+\frac{K_{t+1}}{N_t}\frac{N_{t+1}}{N_{t+1}} &= s A_t f(k_t) + (1-\delta)k_t \\
+\end{align*}
+Em termos de capital per capita, temos a equação central do modelo de Solow:
+\begin{align}
+k_{t+1} &= s A_t f(k_t) + (1-\delta)k_t \label{eq:central}
+\end{align}
+\noindent
+essa descreve a evolução do capital em termos de trabalhadores, dado a produtividade, a taxa de depreciação do capital e a taxa marginal de investimento. Reescrevendo as equações fundamentais do modelo, em termo de capital por trabalhadores, temos:
+\begin{align}
+y_t &= Af(k_t)\\
+c_t &= (1-s)Af(k_t)\\
+i_t &= sAf(k_t)
+\end{align}  
+
+\section{Analise Gráfica do Modelo de Solow}
+Iremos analisar o modelo de Solow de forma gráfica e matemática. Considere a equação central do modelo de Solow \ref{eq:central}. Podemos graficamente representar essa equação de forma que $k_{t+1}$ se relacione com $k_t$. Se $k_t = 0$, então $k_{t+1}=0$, dado que o capital é uma variável necessária para a produção. Graficamente, isso significa que quando $k_{t+1}$ está no eixo vertical e $k_t$ no eixo horizontal, o gráfico começa na origem. A questão é: como $k_{t+1}$ irá variar, dado uma variação em $k_t$? Afim de uma melhor compreensão da relação capital, tiremos a derivada de $k_{t+1}$ em relação a $k_t$:
+\begin{align}
+\frac{dk_{t+1}}{dk_t} &= sAf'(k_t) + (1-\delta); \label{eq:slope}
+\end{align}
+\noindent
+a equação \ref{eq:slope} acima representa a inclinação da curva $k_{t+1}$ contra $k_t$. A magnitude da inclinação depende do valor de $k_t$. Ainda, sendo $f'(k_t)$ positivo e $\delta < 1$, a inclinação é positiva, então $k_{t+1}$ cresce em função de $k_t$. Sendo $f''(k_t)<0$, o termo $sAf'(k_t)$ fica cada vez menor conforme $k_t$ aumenta. Vamos assumir mais duas condições\footnote{Essas condições são conhecidas também como ``condições de Inada''}:
+\begin{align}\label{eq:inada1}
+\lim_{k_t \to 0} f'(k_t) &= \infty\\ \label{eq:inada2}
+\lim_{kt \to \infty} f'(k_t) &= 0 
+\end{align}	
+Em outras palavras, \ref{eq:inada1} diz que o produto marginal do capital é infinito quando não há capital; e \ref{eq:inada2} diz que o produto marginal do capital é zero quando o capital tente ao infinito\footnote{infinitamente grande}.\\
+
+A Figura \ref{fig:eqcentral} representa a relação entre $k_t$ e $k_{t+1}$. A curva começa na origem, e conforme $k_t$ aumenta, $k_{t+1}$ cresce e possui inclinação de $(1-\delta)$. Foi adicionado ao gráfico uma reta de 45 graus, representando $k_t = k_{t+1}$. $k_{t+1}$ inicia com uma inclinação maior que 1 ($\delta < 0$), consequentemente acima da reta de 45 graus e conforme varia\footnote{$\delta < 1$} a inclinação da curva referente a função de acumulação de capital se torna menos inclinada.\\
+
+Eventualmente, dada a inclinação da curva, essa irá cruzar a reta $k_t = k_{t+1}$, no ponto $k_t ^{\ast}$. Esse ponto é conhecido como ``estado estacionário''. \\
 
 
 
+\begin{figure}[!h]
+\centering
+\caption{Grafico da equação central do modelo de Solow} \vspace{2ex}
+\includegraphics[scale=.7]{solow01.eps}
+\label{fig:eqcentral}
+\end{figure} 
 
 
  
