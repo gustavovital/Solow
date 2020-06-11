@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.8)  10 JUN 2020 15:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.8)  11 JUN 2020 14:55
 entering extended mode
 **./solow.tex
 (solow.tex
@@ -161,6 +161,10 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen145
 \Gin@req@width=\dimen146
 )
+("C:\Users\gusta\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\setspace.
+sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
 ("C:\Users\gusta\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
 d-pdfmode.def"
 File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
@@ -169,20 +173,20 @@ File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
 ) (solow.aux)
 \openout1 = `solow.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 ("C:\Users\gusta\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
@@ -205,56 +209,61 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
 
 
 ("C:\Users\gusta\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
 
 ("C:\Users\gusta\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
 [1
 
 {C:/Users/gusta/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 48--51
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  []
 
-[2]
-Overfull \hbox (4.73715pt too wide) in paragraph at lines 84--86
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--54
+
+ []
+
+[2] [3]
+Overfull \hbox (4.73715pt too wide) in paragraph at lines 87--89
 \T1/cmr/m/n/10.95 Seis são as equa-ções e seis são as va-riá-veis en-dó-ge-nas.
  São elas: $\OML/cmm/m/it/10.95 Y[]; C[]; I[]; K[]$\T1/cmr/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
 
  []
 
-[3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 131--133
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
@@ -266,58 +275,121 @@ Package epstopdf Info: Source file: <solow01.eps>
 (epstopdf)                    size: 10547 bytes
 (epstopdf)             Command: <epstopdf --outfile=solow01-eps-converted-to.pd
 f solow01.eps>
-(epstopdf)             \includegraphics on input line 141.
+(epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./solow01-eps-converted-to.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<solow01-eps-converted-to.pdf, id=34, 472.76625pt x 382.42876pt>
+<solow01-eps-converted-to.pdf, id=37, 472.76625pt x 382.42876pt>
 File: solow01-eps-converted-to.pdf Graphic file (type pdf)
 <use solow01-eps-converted-to.pdf>
-Package pdftex.def Info: solow01-eps-converted-to.pdf  used on input line 141.
-(pdftex.def)             Requested size: 330.93411pt x 267.69829pt.
+Package pdftex.def Info: solow01-eps-converted-to.pdf  used on input line 144.
+(pdftex.def)             Requested size: 236.38254pt x 191.2139pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5] [6 <./solow01-eps-converted-to.pdf>] (solow.aux) ) 
+[6]
+Package epstopdf Info: Source file: <solow02.eps>
+(epstopdf)                    date: 2020-06-11 13:09:34
+(epstopdf)                    size: 168530 bytes
+(epstopdf)             Output file: <solow02-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-11 13:10:04
+(epstopdf)                    size: 16434 bytes
+(epstopdf)             Command: <epstopdf --outfile=solow02-eps-converted-to.pd
+f solow02.eps>
+(epstopdf)             \includegraphics on input line 153.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./solow02-eps-converted-to.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<solow02-eps-converted-to.pdf, id=43, 472.76625pt x 382.42876pt>
+File: solow02-eps-converted-to.pdf Graphic file (type pdf)
+<use solow02-eps-converted-to.pdf>
+Package pdftex.def Info: solow02-eps-converted-to.pdf  used on input line 153.
+(pdftex.def)             Requested size: 236.38254pt x 191.2139pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+[7 <./solow01-eps-converted-to.pdf> <./solow02-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
+Package epstopdf Info: Source file: <solow03.eps>
+(epstopdf)                    date: 2020-06-11 14:54:13
+(epstopdf)                    size: 165243 bytes
+(epstopdf)             Output file: <solow03-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=solow03-eps-converted-to.pd
+f solow03.eps>
+(epstopdf)             \includegraphics on input line 190.
+runsystem(epstopdf --outfile=solow03-eps-converted-to.pdf solow03.eps)...execut
+ed (allowed).
+
+Package epstopdf Info: Result file: <solow03-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-11 14:55:09
+(epstopdf)                    size: 15287 bytes.
+
+
+pdfTeX warning: pdflatex (file ./solow03-eps-converted-to.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<solow03-eps-converted-to.pdf, id=118, 509.905pt x 414.54875pt>
+File: solow03-eps-converted-to.pdf Graphic file (type pdf)
+<use solow03-eps-converted-to.pdf>
+Package pdftex.def Info: solow03-eps-converted-to.pdf  used on input line 190.
+(pdftex.def)             Requested size: 254.95187pt x 207.27386pt.
+[9 <./solow03-eps-converted-to.pdf>] (solow.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3301 strings out of 480799
- 43551 string characters out of 2895785
- 296444 words of memory out of 3000000
- 19267 multiletter control sequences out of 15000+200000
+ 3350 strings out of 480799
+ 44611 string characters out of 2895785
+ 295586 words of memory out of 3000000
+ 19310 multiletter control sequences out of 15000+200000
  551300 words of font info for 78 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,11n,27p,894b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\gusta\AppData\
-Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\gust
-a\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\
-Users\gusta\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm090
-0.pk> <C:\Users\gusta\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
-00\tcrm0600.pk> <C:\Users\gusta\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknapp
-en/ec/dpi600\ecbx1095.pk> <C:\Users\gusta\AppData\Local\MiKTeX\2.9\fonts/pk/ljf
-our/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\gusta\AppData\Local\MiKTeX\2.9\fo
-nts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\gusta\AppData\Local\MiK
-TeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\gusta\AppData
-\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk> <C:\Users\gus
-ta\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:
-\Users\gusta\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm12
-00.pk> <C:\Users\gusta\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi
-600\ecrm1728.pk><C:/Users/gusta/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmex10.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gusta/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/gusta/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/gus
-ta/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><
-C:/Users/gusta/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr8.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr9.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gusta/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on solow.pdf (6 pages, 193114 bytes).
+ <C:\Users\gusta\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
+ecrm0600.pk> <C:\Users\gusta\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecrm0800.pk> <C:\Users\gusta\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\gusta\AppData\Local\MiKTeX\2.9\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\gusta\AppData\Local\MiKTeX
+\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0600.pk> <C:\Users\gusta\AppData\Lo
+cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\gusta\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Us
+ers\gusta\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.
+pk> <C:\Users\gusta\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
+\tcrm0800.pk> <C:\Users\gusta\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecrm1200.pk> <C:\Users\gusta\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
+r/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\gusta\AppData\Local\MiKTeX\2.9\font
+s/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/gusta/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gusta/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/
+gusta/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pf
+b><C:/Users/gusta/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmmi8.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmmi9.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gusta/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/gusta/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/gusta/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/User
+s/gusta/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsy6.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy8.pfb>
+Output written on solow.pdf (9 pages, 248553 bytes).
 PDF statistics:
- 348 PDF objects out of 1000 (max. 8388607)
+ 461 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

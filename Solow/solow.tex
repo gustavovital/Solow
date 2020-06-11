@@ -6,9 +6,12 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
+\usepackage{setspace}
 
 \author{Gustavo Vital\thanks{Mestrando em Economia pela Faculdade de Economia do Porto. Email: gustavovital@id.uff.br}}
 \title{Notas sobre o Modelo de Solow\footnote{Baseado em Eric Sims.}}
+
+\onehalfspacing
 
 \begin{document}
 \maketitle
@@ -133,16 +136,63 @@ Em outras palavras, \ref{eq:inada1} diz que o produto marginal do capital é inf
 
 A Figura \ref{fig:eqcentral} representa a relação entre $k_t$ e $k_{t+1}$. A curva começa na origem, e conforme $k_t$ aumenta, $k_{t+1}$ cresce e possui inclinação de $(1-\delta)$. Foi adicionado ao gráfico uma reta de 45 graus, representando $k_t = k_{t+1}$. $k_{t+1}$ inicia com uma inclinação maior que 1 ($\delta < 0$), consequentemente acima da reta de 45 graus e conforme varia\footnote{$\delta < 1$} a inclinação da curva referente a função de acumulação de capital se torna menos inclinada.\\
 
-Eventualmente, dada a inclinação da curva, essa irá cruzar a reta $k_t = k_{t+1}$, no ponto $k_t ^{\ast}$. Esse ponto é conhecido como ``estado estacionário''. \\
-
-
+Eventualmente, dada a inclinação da curva, essa irá cruzar a reta $k_t = k_{t+1}$, no ponto $k_t ^{\ast}$. Esse ponto é conhecido como ``estado estacionário''\footnote{``Steady State''}. \\
 
 \begin{figure}[!h]
 \centering
 \caption{Grafico da equação central do modelo de Solow} \vspace{2ex}
-\includegraphics[scale=.7]{solow01.eps}
+\includegraphics[scale=.5]{solow01.eps}
 \label{fig:eqcentral}
 \end{figure} 
+
+Normalmente se inclui a reta em 45 graus devido a análise direta do funcionamento do modelo. Isso é, a dinâmica do estoque de capital por trabalhador. Ainda, a reta permite refletir o eixo vertical no eixo horizontal. Por exemplo, suponha que a economia num período $t$ tal que $k_t < k_t ^{\ast}$, dessa forma com estoque de capital abaixo do estoque do estado estacionário. Podemos entender o capital de estoque ``refletindo'' na reta de 45 graus. 
+
+\begin{figure}[!h]
+\centering
+\caption{Convergência para o estado estacionário ($k_t < k_t ^{\ast}$)} \vspace{2ex}
+\includegraphics[scale=.5]{solow02.eps}
+\label{fig:convergencia}
+\end{figure}
+
+O movimento ao estado estacionário acontece pela reflexão na reta que simboliza o estado estacionário. Dado um estoque de capital no período $t$, senão no estado estacionário esse é ``iterado'' entre a curva que representa o estado estacionário e a que representa a equação central do modelo de Solow.\\
+
+A analise feita acima possui um ponto crucial: dado um valor de $k_t$ diferente de zero, o estoque de capital tende a caminhar ao seu estado estacionário. Em outras palavras, o estado estacionário é um ``ponto de atração'' do estoque de capital. Uma vez que o estoque de capital atinge seu estado estacionário este permanece ali, desde que $k_t = k_{t+1}$.\\
+
+O estado estacionário é sempre um ponto de interesse analítico. Não porque uma vez nesse ponto a economia permanece nesse ponto, mas porque independente dos valores iniciais esse é o estado que a economia irá convergir.
+
+\section{A Álgebra do Estado Estacionário A Partir de uma Função Cobb-Douglas de Produção}
+Suponhamos agora que a função de produção da economia assume forma funcional de uma Cobb-Douglas. Para resolvermos o modelo no seu estado estacionário temos $k_t = k_{t+1} = k_t ^{\ast}$:
+\begin{align}
+k_t ^{\ast} = sAk_t ^{\ast \alpha} + (1-\delta)k_t ^{\ast}
+\end{align}
+\noindent
+$k_t ^{\ast}$ pode ser definido como:
+\begin{align}
+k_t ^{\ast} = \left(\frac{sA}{\delta}\right)^{\frac{1}{1-\alpha}}
+\end{align}
+A medida em que $s$ e $A$ aumentam, $k_t ^{\ast}$ aumenta. Por sua vez, a medida em que $\delta$ aumenta, $k_t ^{\ast}$ diminui. Isso é, o estoque de capital é inversamente proporcional a taxa de desconto do capital, bem como é proporcional a propensão marginal a investir e a produtividade. Além disso, podemos obter o valor das outras variáveis para o estado estacionário, visto que podemos substituir $k_t ^{\ast}$ nas outras equações, de forma que:
+\begin{align}
+y^{\ast} &= Ak^{\ast \alpha} \\
+c^{\ast} &= (1-s)Ak^{\ast \alpha}\\
+i^{\ast} &= sAk^{\ast \alpha} \\
+R^{\ast} &= \alpha A k^{\ast \alpha - 1}\\
+w^{\ast} &= (1-\alpha)Ak^{\ast \alpha}  
+\end{align}
+\section{Mudanças em s e Mudanças em A}
+
+Nosso objetivo agora é entender como as variáveis endógenas reagem a mudanças nas variáveis exógenas $s$ e $A$. Vamos considerar inicialmente uma mudança em $s$. Esta, no mundo real, poderia ser vista como uma mudança de política fiscal por exemplo. Suponha inicialmente a economia no estado estacionário, onde $s$ inicial é dado por $s_0$. Então, em $t$, $s_1 > s_0$.\\
+
+Em termos gráficos, um aumento em $s$ desloca a curva da equação central do modelo para cima. Desta forma a economia passa a caminhar para um novo estado estacionário, em que $k_1^{\ast} > k_0^{\ast}$  
+
+\begin{figure}[!h]
+\centering
+\caption{Convergência para o estado estacionário após uma mudança em $s$} \vspace{2ex}
+\includegraphics[scale=.5]{solow03.eps}
+\label{fig:convergencia2}
+\end{figure}
+
+
+
 
 
  
